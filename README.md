@@ -20,12 +20,12 @@ All six are `arm64-v8a` only, `minSdk 26`, `targetSdk 35`, signed with APK Signa
 v2 + v3, and 16 KB page-size aligned (`0x4000` LOAD segments) for Android 16. They are **not**
 official upstream builds — they are signed with local test keys (see "Signing" below).
 
-Port repositories: [wordcraft-android](https://github.com/kanaaka/wordcraft-android),
-[deckcraft-android](https://github.com/kanaaka/deckcraft-android),
-[gridcraft-android](https://github.com/kanaaka/gridcraft-android),
-[pdfcraft-android](https://github.com/kanaaka/pdfcraft-android),
-[photocraft-android](https://github.com/kanaaka/photocraft-android),
-[vectorcraft-android](https://github.com/kanaaka/vectorcraft-android).
+Port repositories: [wordcraft-android](https://github.com/physicistlk/wordcraft-android),
+[deckcraft-android](https://github.com/physicistlk/deckcraft-android),
+[gridcraft-android](https://github.com/physicistlk/gridcraft-android),
+[pdfcraft-android](https://github.com/physicistlk/pdfcraft-android),
+[photocraft-android](https://github.com/physicistlk/photocraft-android),
+[vectorcraft-android](https://github.com/physicistlk/vectorcraft-android).
 
 ## Tablet-compatibility changes
 
