@@ -45,6 +45,10 @@ Android-specific additions. The following were implemented across the six apps (
   "nothing"). Plain text only — pictures/HTML are not negotiated yet.
 
 ### 2. Open-with and share intents
+- **Manifest intent filters** — each APK now declares `ACTION_VIEW` (mime `*/*`) and
+  `ACTION_SEND` (text/plain, image/*) intent filters, so the app appears in the system
+  "Open with" / "Share" lists. Android matches by MIME type; the app then checks the
+  extension itself.
 - Incoming `ACTION_VIEW` and `ACTION_SEND` are read at startup; a `content://` URI is copied to a
   file in the app's cache dir through `ContentResolver.openInputStream` and opened on the first frame.
 - Outgoing `ACTION_SEND` (text) via `intents::share_text` (chooser intent, no `FileProvider`
